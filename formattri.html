@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../day9/response.html" method="post">
+        <div>
+            <label for="uname">Username</label><br>
+            <input type="text" name="uname" id="uname" placeholder="usernam" required maxlength="10" autofocus>
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="password" name="password" id="password" required>
+        </div>
+<div>
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="adress">adress</label><br>
+            <input type="text" name="adress" id="adress" value="JNTU" readonly>
+    </div>
+    <div>
+    <label for="ph">phone no</label><br>
+            <input type="tel" name="ph" id="ph" value="12343456" readonly disabled></div>
+            <div>
+                <label for="date">DOB</label><br>
+                <input type="date" name="date" id="date" required>
+            </div><br>
+            <div>
+                <input type="reset" name="reset" id="reset" value="reset">
+            </div>
+            <div>
+                <label for="range">Range</label>
+                <input type="range" name="range" id="Range">
+            </div><br>
+            <div>
+                <label for="file">Choose your file</label>
+                <input type="file" name="file" id="file" accept=".pdf,doc" multiple>
+            </div><br>
+            <div>
+                <h3>Select your gender</h3>
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="others">others</label>
+                <input type="radio" name="gender" id="others" value="others">
+            </div><br>
+            <div>
+                <label for="back"> No ofbacklogs</label>
+                <input type="number" name="back" id="back">
+            </div>
+            <div>
+                <h3>select your courses</h3>
+                <label for="AI">AI</label>
+                <input type="checkbox" name="courses" id="AI" value="AI">
+                <label for="ML">ML</label>
+                <input type="checkbox" name="courses" id="ML" value="ML"> 
+                <label for="testing">testing</label>
+                <input type="checkbox" name="courses" id="testing" value="testing">
+            </div><br>
+            <div>
+                <label for="color">selct colour</label><br>
+                <input type="color" name="color" id="color">
+            </div><br>
+            <div>
+            <input type="submit" value="submit">
+        </div>
+        
+    </form>
+</body>
+</html>
